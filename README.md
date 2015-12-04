@@ -1,7 +1,7 @@
 Szucs / Kocur 
 
 
-TD3 : App Reaml
+TD4 : App Reaml
 
 Librairies utilisées :
 	- Retrofit
