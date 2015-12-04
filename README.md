@@ -13,10 +13,10 @@ Le nombre de requêtes GET de cette application est de 3.
 Images de l'UI : 
 
 	Lancement :
-[Read more words!](https://github.com/Chiriusse/LPSIL_Kocur_Szucs/blob/master/TP4-Realm/Android01.jpg)
+![ScreenShot](https://github.com/Chiriusse/LPSIL_Kocur_Szucs/blob/master/TP4-Realm/Android01.jpg)
 
 	Possibilité d'ajouter l'utilisateur recherché + fonction de recherche :
-[Read more words!](https://github.com/Chiriusse/LPSIL_Kocur_Szucs/blob/master/TP4-Realm/Android02.jpg)
+![ScreenShot](https://github.com/Chiriusse/LPSIL_Kocur_Szucs/blob/master/TP4-Realm/Android02.jpg)
 	
 
 
