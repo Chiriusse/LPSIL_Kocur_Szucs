@@ -1,0 +1,46 @@
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+</head>
+<body>
+	<input type="text" id="username" value="chiriusse">
+	<button onclick="getInfos();">CLICK</button>
+	<div id="content" ></div> 
+
+</body>
+</html>
+
+<script>
+function getInfos()
+{
+	var values = ["login", "id",  "url"];
+	var username  = $("#username").val();
+		$.ajax({
+	    url: 'https://api.github.com/users/' + username + '/repos',
+	    type: 'GET',
+	    async: false,
+	    dataType: 'json'
+	  }).success(function(results) {
+	    userRepos = results;
+	  }).error(function() {
+	    alert('Error ! maybe an incorrect username ...');
+	  });
+
+	 var obj = userRepos;
+	document.getElementById("content").innerHTML = "<p>-- INFORMATION-- </p>";
+	$("#content").append("<img style='width:100px;height:100px;'src='"+obj["0"]["owner"]["avatar_url"]+"'></img>")
+	for (var value in values)
+	{
+		var content =  obj["0"]["owner"][values[value]];
+		$("#content").append("<p>"+ values[value] + " : " + content + "</p>")
+	}
+	
+	//https://avatars.githubusercontent.com/u/14038960?v=3
+
+}
+  
+
+</script>
