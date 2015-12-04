@@ -1,4 +1,21 @@
 Szucs / Kocur 
+
+
+TD3 : App Reaml
+
+Librairies utilisées :
+	- Retrofit
+	- Realm
+
+Le nombre de requêtes GET de cette application est de 3.
+
+
+Images de l'UI : 
+
+
+
+
+
 TD2 : BDD d’une Application Cliente Mobile
 
 A] Etude des données d’une application mobile 
